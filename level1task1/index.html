@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" />
+  <title>Laptop Store</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+  </style>
+</head>
+
+<body>
+  <!------------NAVBAR--------------------------->
+  <header class="header">
+    <div class="logo-home">
+      <img id="header-img" src="lap.jpg" alt="Laptop logo"/>
+      <span class="brand">Laptop store</span>
+    </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#product">Product</a></li>
+      </ul>
+    </nav>
+        
+  </header>
+  <!------------NAVBAR--------------------------->
+  <section id="home" class="two-column">
+    <div>
+      <span>
+        <p class="sub">Everything on you want</p>
+        <p class="heading">Best<br>technology</p>
+      </span>
+    </div>
+    <div><img src="image.webp" class="main-img" alt="Laptops">
+    </div>
+  </section>
+<!-----------------SERVICES---------------------->
+  <section id="services" class="two-column">
+      <div>
+          <img src="laptop.avif" class="laptop">
+      </div>
+    <div>
+      <span>
+        <p class="heading">Services</p>
+        <h2>2-year warranty</h2>
+        <p class="desc">We’ll repair or replace your device for any covered issue for 5 years after you receive your product.</p>
+        <h2>Free shipping</h2>
+        <p class="desc">All orders containing a device include free shipping.</p>
+        <h2>60-day returns</h2>
+        <p class="desc">We’re accepting 30-days returns — no questions asked.</p>
+        <h2>Secured payments</h2>
+        <p class="desc">Shop with confidence: all payment details are protected required encryption.</p>
+      </span>
+    </div>
+  </section>
+<!-----------------PRODUCT---------------------->
+      
+  <section id="product" class="section center">
+    <p class="heading">Product</p>
+    <p class="gray">The Laptop X1 is a powerful and versatile device designed to meet all your computing needs. With its sleek and lightweight design, it's perfect for on-the-go professionals and students alike.
+   Featuring a high-resolution display, you'll enjoy crisp and clear visuals whether you're working on spreadsheets, watching movies, or browsing the web.
+    Equipped with the latest Intel Core processor and ample RAM, the Laptop X1 delivers smooth performance for multitasking and demanding applications.</p>
+  </section>
+  <section class="section three-column">
+    <div>
+      <span>
+        <p class="lap-title">LENOVA</p>
+      </span>
+      <img src="lap 3.webp" alt="Lenova">
+      <br><p>From 25000</p>
+      <br><p> Powerful Processors</p>
+      <br><p>12th Gen Intel i5</p>
+      <br><p>2GB-16GB RAM</p>
+      <br><p>V15 39.62cms</p>
+    
+      <button class="buy-btn" onclick="addCart()">Buy</button>
+    </div>
+    <div>
+      <span>
+        <p class="lap-title">HP</p>
+      </span>
+      <img src="lap 2.avif" alt="HP lap">
+      <br><p>From 40000</p>
+        <br><p>Long battery life</p>
+        <br><p>12th Gen Intel i5</p>
+        <br><p>4GB-64GB RAM,512 GB SSD</p>
+        <br><p>39.6 cms</p>
+      <button onclick="addCart()" class="buy-btn" onclick="addCart">Buy</button>
+    </div>
+    <div>
+      <span>
+        <p class="lap-title">ASUS</p>
+      </span>
+      <img src="lap 1.webp">
+      <br><p>From 35000</p>
+      <br><p>Best Performance</p>
+      <br><P>70000 Series AMD Ryzen</P>
+      <br><p>11th Gen Intel i5</p>
+      <br><P>5GB-16GB,512 GB SSD</P>
+      <button onclick="addCart()" class="buy-btn" onclick="addCart">Buy</button>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </footer>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Laptop Store</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-home">
+        <img id="header-img" src="lap.jpg" alt="Laptop logo"/>
+        <span class="brand">Laptop store</span>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#product">Product</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="two-column">
+      <div>
+        <span>
+          <p class="sub">Everything on you want</p>
+          <p class="heading">Best<br>technology</p>
+        </span>
+      </div>
+      <div><img src="image.webp" class="main-img" alt="Laptops"></div>
+    </section>
+    <section id="services" class="two-column">
+      <div>
+        <img src="laptop.avif" class="laptop">
+      </div>
+      <div>
+        <span>
+          <p class="heading">Services</p>
+          <h2>2-year warranty</h2>
+          <p class="desc">We’ll repair or replace your device for any covered issue for 5 years after you receive your product.</p>
+          <h2>Free shipping</h2>
+          <p class="desc">All orders containing a device include free shipping.</p>
+          <h2>60-day returns</h2>
+          <p class="desc">We’re accepting 30-days returns — no questions asked.</p>
+          <h2>Secured payments</h2>
+          <p class="desc">Shop with confidence: all payment details are protected required encryption.</p>
+        </span>
+      </div>
+    </section>
+    <section id="product" class="section center">
+      <p class="heading">Product</p>
+      <p class="gray">The Laptop X1 is a powerful and versatile device designed to meet all your computing needs. With its sleek and lightweight design, it's perfect for on-the-go professionals and students alike.
+      Featuring a high-resolution display, you'll enjoy crisp and clear visuals whether you're working on spreadsheets, watching movies, or browsing the web.
+      Equipped with the latest Intel Core processor and ample RAM, the Laptop X1 delivers smooth performance for multitasking and demanding applications.</p>
+    </section>
+    <section class="section three-column">
+      <div>
+        <span>
+          <p class="lap-title">LENOVA</p>
+        </span>
+        <img src="lap 3.webp" alt="Lenova">
+        <br><p>From 25000</p>
+        <br><p> Powerful Processors</p>
+        <br><p>12th Gen Intel i5</p>
+        <br><p>2GB-16GB RAM</p>
+        <br><p>V15 39.62cms</p>
+        <button class="buy-btn" onclick="addCart()">Buy</button>
+      </div>
+      <div>
+        <span>
+          <p class="lap-title">HP</p>
+        </span>
+        <img src="lap 2.avif" alt="HP lap">
+        <br><p>From 40000</p>
+        <br><p>Long battery life</p>
+        <br><p>12th Gen Intel i5</p>
+        <br><p>4GB-64GB RAM,512 GB SSD</p>
+        <br><p>39.6 cms</p>
+        <button onclick="addCart()" class="buy-btn">Buy</button>
+      </div>
+      <div>
+        <span>
+          <p class="lap-title">ASUS</p>
+        </span>
+        <img src="lap 1.webp">
+        <br><p>From 35000</p>
+        <br><p>Best Performance</p>
+        <br><P>70000 Series AMD Ryzen</P>
+        <br><p>11th Gen Intel i5</p>
+        <br><P>5GB-16GB,512 GB SSD</P>
+        <button onclick="addCart()" class="buy-btn">Buy</button>
+      </div>
+    </section>
+    <footer id="footer">
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
+  </html>
+  
+  
+
+</body>
+
+</html>
